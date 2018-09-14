@@ -1,0 +1,182 @@
+/* roboto-regular */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v15-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Roboto Regular"), local("Roboto-Regular"), url("../fonts/roboto-v15-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v15-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v15-latin-regular.woff") format("woff"), url("../fonts/roboto-v15-latin-regular.ttf") format("truetype"), url("../fonts/roboto-v15-latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */ }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  background-color: #edf0f5;
+  min-height: 100%; }
+
+a {
+  text-decoration: none; }
+
+/* Login */
+.login-body {
+  height: 100%;
+  font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif; }
+  .login-body .login-topbar {
+    box-sizing: border-box;
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.12); }
+    .login-body .login-topbar .login-logo {
+      margin-top: 25px;
+      margin-left: 145px; }
+  .login-body .login-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 800px;
+    margin-left: -380px;
+    margin-top: -260px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.12); }
+    .login-body .login-container .top {
+      background-image: radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      background-image: -ms-radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      background-image: -moz-radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      background-image: -o-radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      background-image: -webkit-radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2671', endColorstr='#c33764',GradientType=0 );
+      height: 32px;
+      width: 100%; }
+    .login-body .login-container .left-side {
+      padding: 48px; }
+    .login-body .login-container .right-side {
+      height: 434px;
+      margin-top: 20px;
+      padding: 0; }
+    .login-body .login-container .title {
+      margin-bottom: 10px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #333333; }
+    .login-body .login-container .content {
+      font-size: 16px;
+      color: #666666; }
+    .login-body .login-container .remember-me {
+      color: #666666;
+      margin-right: 10px; }
+    .login-body .login-container input.ui-inputtext {
+      font-size: 1em;
+      color: #4f575b;
+      margin: 0;
+      outline: medium none;
+      padding: .25em;
+      background: #ffffff;
+      font-weight: normal;
+      border: 1px solid #d6d6d6;
+      border-radius: 3px; }
+      .login-body .login-container input.ui-inputtext:hover {
+        border-color: #c0c0c0; }
+      .login-body .login-container input.ui-inputtext:focus {
+        outline: 0 none;
+        box-shadow: 0 0 5px #1f89ce; }
+    .login-body .login-container .ui-button {
+      border-radius: 3px;
+      border: 1px solid #2399e5;
+      color: #FFFFFF;
+      background: #2399e5;
+      font-size: 16px; }
+      .login-body .login-container .ui-button .ui-button-text {
+        padding: .25em 1em; }
+      .login-body .login-container .ui-button:hover {
+        background: #1f89ce; }
+      .login-body .login-container .ui-button:focus {
+        outline: 0 none;
+        background: #186ba0; }
+  .login-body input,
+  .login-body textarea,
+  .login-body select,
+  .login-body button {
+    font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+@media (max-width: 1025px) {
+  .login-body .login-container {
+    width: 100%;
+    height: 350px;
+    left: 0;
+    margin-left: 0;
+    margin-top: -150px; }
+    .login-body .login-container .right-side {
+      display: none; } }
+
+/* Exception */
+.exception-body {
+  height: 100%; }
+  .exception-body .exception-topbar {
+    box-sizing: border-box;
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.12); }
+    .exception-body .exception-topbar .exception-logo {
+      margin-top: 25px;
+      margin-left: 145px; }
+  .exception-body .exception-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 800px;
+    margin-left: -380px;
+    margin-top: -260px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.12); }
+    .exception-body .exception-container .top {
+      background-image: radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      background-image: -ms-radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      background-image: -moz-radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      background-image: -o-radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      background-image: -webkit-radial-gradient(circle at 100% 0, #c33764, #1d2671);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2671', endColorstr='#c33764',GradientType=0 );
+      height: 32px;
+      width: 100%; }
+    .exception-body .exception-container .left-side {
+      padding: 100px 40px 40px 40px; }
+    .exception-body .exception-container .right-side {
+      margin-top: 100px;
+      padding: 0; }
+      .exception-body .exception-container .right-side img {
+        float: right; }
+    .exception-body .exception-container .title {
+      margin-bottom: 10px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #333333; }
+    .exception-body .exception-container .content {
+      font-size: 17px;
+      color: #666666; }
+    .exception-body .exception-container .ui-button {
+      border-radius: 3px;
+      border: 1px solid #2399e5;
+      color: #FFFFFF;
+      background: #2399e5;
+      font-size: 16px; }
+      .exception-body .exception-container .ui-button .ui-button-text {
+        padding: .25em 1em; }
+      .exception-body .exception-container .ui-button:hover {
+        background: #1f89ce; }
+      .exception-body .exception-container .ui-button:focus {
+        outline: 0 none;
+        background: #186ba0; }
+
+@media (max-width: 1025px) {
+  .exception-body .exception-container {
+    width: 100%;
+    height: 350px;
+    left: 0;
+    margin-left: 0;
+    margin-top: -150px; }
+    .exception-body .exception-container .right-side {
+      display: none; } }
