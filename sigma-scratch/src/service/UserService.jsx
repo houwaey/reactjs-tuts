@@ -2,26 +2,18 @@ import axios from 'axios';
 
 export class UserService {
 
-	createUser(_username, _password) {
-		axios.post('http://localhost/web/pm/admin/service/user-service.php', {
-			operation: 'create-user',
+	createUser(_username, _password, _email) {
+		return axios.post('http://localhost:8080/prime-sigma/web/user', {
 			username: _username,
-			password: _password
+			password: _password,
+			email: _email
 		})
-		.then(function(response) {
-			console.log(response);
-		})
-		.catch(function(error) {
-			console.log(error);
-		});
+		.then(res => {return res;})
+		.catch(err => err);
 	}
 
 	getAllUsers() {
-		return axios.get('http://localhost/web/pm/admin/service/user-service.php', {
-			params: {
-				operation: 'search-all-users'
-			}
-		})
+		return axios.get('http://localhost:8080/prime-sigma/web/users')
 		.then(res => res.data.data)
 		.catch(err => []);
 	}
